@@ -68,16 +68,24 @@
         border-color: #2581EB;
         border-bottom: solid 3px
     }
+
     .bucket {
+        margin-right: 8px;
+        color: #6B7280;
         box-sizing: border-box; /* Учитывает border в ширине/высоте */
         border: 1px solid transparent; /* Прозрачная рамка по умолчанию */
-        transition: color 0.3s, border-color 0.3s; /* Плавное изменение */
     }
 
     .bucket:hover {
         color: #2581EB;
+        border-radius: 5px;
         border-color: #2581EB; /* Меняем только цвет рамки */
     }
+
+    .bucket:active {
+        border-color: #0763CD; /* Рамка при нажатии (временная) */
+    }
+
 
     .call-back-button {
         background-color:#EAB308;
