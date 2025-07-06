@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jura';
+    src: url('../assets/fonts/Jura-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@media (min-width: 1280px){
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 16px;
+    }
+
+
+    .left-corner {
+        margin: 4px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .corner-duck {
+    }
+
+    .logo {
+        margin-top: 5px;
+    }
+
+    .right-corner {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu_burger{
+        margin-left: 10px;
+    }
+
+    .centera-panel{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .nav-card{
+        display: flex; justify-content: center
+    }
+
+
+    .nav-btn{
+        font-family: Inter, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        padding-bottom: 8px;
+    }
+
+    .nav-btn:hover {
+        color: #2581EB;
+        border-color: #2581EB;
+        border-bottom: solid 3px
+    }
+    .bucket {
+        box-sizing: border-box; /* Учитывает border в ширине/высоте */
+        border: 1px solid transparent; /* Прозрачная рамка по умолчанию */
+        transition: color 0.3s, border-color 0.3s; /* Плавное изменение */
+    }
+
+    .bucket:hover {
+        color: #2581EB;
+        border-color: #2581EB; /* Меняем только цвет рамки */
+    }
+
+    .call-back-button {
+        background-color:#EAB308;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        padding: 10px 12px;
+        margin-right: 5px ;
+    }
+
+
+
+
+
+    .main-container {
+        position: relative; /* Создаём контекст для позиционирования */
+        width: 100%;
+        display: flex;
+        overflow: visible; /* Разрешаем элементам выходить за границы */
+    }
+
+    .main-duck-image {
+        margin-left: -181px;
+        margin-top: 100px;
+    }
+
+    .duck-text {
+        position:  absolute;
+        margin-top: 315px;
+        margin-left: 280px;
+    }
+
+    .before-duck-text {
+        font-family: 'Jura', sans-serif;
+        font-size: 152px; /* Большой размер текста */
+        margin-left: 16px;
+    }
+
+    .after-duck-text {
+        font-family: 'Jura', sans-serif;
+        font-size: 152px;
+        margin-left: -230px;
+        margin-top: 200px;
+    }
+
+    .after-duck-text-small {
+        font-family: 'Inter', sans-serif;
+        width: 315px;
+        color: #1F2937;
+        font-weight: 150;
+        font-size: 16px;
+        margin-left: -420px;
+        margin-top: 360px;
+    }
+}
