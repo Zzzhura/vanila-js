@@ -1,26 +1,25 @@
 @font-face {
-    font-family: 'Inter';
-    src: url('../assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-family: "Inter";
+    src: url("../assets/fonts/Inter-VariableFont_opsz,wght.ttf")
+        format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Jura';
-    src: url('../assets/fonts/Jura-VariableFont_wght.ttf') format('truetype');
+    font-family: "Jura";
+    src: url("../assets/fonts/Jura-VariableFont_wght.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
-
-@media (min-width: 1280px){
-    .header-container{
+@media (min-width: 1280px) {
+    .header-container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
     }
-
 
     .left-corner {
         margin: 4px 0;
@@ -40,22 +39,22 @@
         align-items: center;
     }
 
-    .menu_burger{
+    .menu_burger {
         margin-left: 10px;
     }
 
-    .centera-panel{
+    .centera-panel {
         display: flex;
         gap: 20px;
         align-items: center;
     }
 
-    .nav-card{
-        display: flex; justify-content: center
+    .nav-card {
+        display: flex;
+        justify-content: center;
     }
 
-
-    .nav-btn{
+    .nav-btn {
         font-family: Inter, sans-serif;
         font-size: 15px;
         font-weight: 500;
@@ -63,41 +62,36 @@
     }
 
     .nav-btn:hover {
-        color: #2581EB;
-        border-color: #2581EB;
-        border-bottom: solid 3px
+        color: #2581eb;
+        border-color: #2581eb;
+        border-bottom: solid 3px;
     }
 
     .bucket {
         margin-right: 8px;
-        color: #6B7280;
+        color: #6b7280;
         box-sizing: border-box;
         border: 1px solid transparent;
     }
 
     .bucket:hover {
-        color: #2581EB;
+        color: #2581eb;
         border-radius: 5px;
-        border-color: #2581EB;
+        border-color: #2581eb;
     }
 
     .bucket:active {
-        border-color: #0763CD;
+        border-color: #0763cd;
     }
 
-
     .call-back-button {
-        background-color:#EAB308;
+        background-color: #eab308;
         color: white;
         border-radius: 5px;
         border: none;
         padding: 10px 12px;
-        margin-right: 5px ;
+        margin-right: 5px;
     }
-
-
-
-
 
     .main-container {
         position: relative;
@@ -112,35 +106,46 @@
     }
 
     .duck-text {
-        position:  absolute;
+        position: absolute;
         margin-top: 315px;
         margin-left: 280px;
     }
 
     .before-duck-text {
-        font-family: 'Jura', sans-serif;
+        font-family: "Jura", sans-serif;
         font-size: 152px;
         margin-left: 16px;
     }
 
     .after-duck-text {
-        font-family: 'Jura', sans-serif;
+        font-family: "Jura", sans-serif;
         font-size: 152px;
         margin-left: -230px;
         margin-top: 200px;
     }
 
     .after-duck-text-small {
-        font-family: 'Inter', sans-serif;
+        font-family: "Inter", sans-serif;
         width: 315px;
-        color: #1F2937;
+        color: #1f2937;
         font-weight: 150;
         font-size: 16px;
         margin-left: -420px;
         margin-top: 360px;
     }
 
-    .categories{
+    .duck-text-button {
+        marign-top: 8px;ц
+        color: white;
+        width: 156px;
+        height: 38px;
+        border-radius: 8px;
+        border: none;
+        background: #2581eb;
+        box-shadow: none;
+    }
+
+    .categories {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -156,7 +161,7 @@
     }
 
     .cat-text {
-        font-family: 'Inter', sans-serif;
+        font-family: "Inter", sans-serif;
         font-size: 16px;
         margin-left: 8px;
         margin-top: 6px;
