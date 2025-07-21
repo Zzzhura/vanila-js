@@ -18,7 +18,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 100%;
+        width: 1250px;
+        padding: 16px;
     }
 
     .left-corner {
@@ -94,10 +95,10 @@
     }
 
     .main-container {
-        position: relative;
         width: 100%;
         display: flex;
         overflow: visible;
+        margin-top: -75px;
     }
 
     .main-duck-image {
@@ -135,7 +136,7 @@
     }
 
     .duck-text-button {
-        marign-top: 8px;ц
+        margin-top: 8px;
         color: white;
         width: 156px;
         height: 38px;
@@ -146,11 +147,12 @@
     }
 
     .categories {
+        bottom: 0;
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: -80px;
+        margin-top: -30px;
     }
 
     .cat-card {
